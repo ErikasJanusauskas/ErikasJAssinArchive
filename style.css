@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+}
+
+.title{
+    color: #ffffff;
+    text-align: center;
+    margin: 6% 0% 6% 0%;
+    font-size: xx-large;
+    letter-spacing: 5px;
+}
+
+.navbar {
+    margin: 0%;
+
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(2, 150px);
+}
+
+.assignments {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+
+    text-align: center;
+    padding: 65px 0px 65px 0px;
+    border-radius: 20px;
+}
+
+.card:hover {
+    color: #ffffff;
+    scale: 1.02;
+}
+
+.L1 {
+    background-image: linear-gradient(to bottom right, #ff930f, #fff95b);
+    grid-column: span 2;
+}
+.L2 {
+    background-image: linear-gradient(to bottom right, #0974f1, #9fccfa);
+    padding: 145px 0px 145px 0px;
+    grid-row: span 2;
+}
+.L3 {
+    background-image: linear-gradient(to bottom right, #8338e3, #e0a9bb);
+}
+.L4 {
+    background-image: linear-gradient(to bottom right, #0f68a9, #43b692);
+}
+.L5 {
+    background-image: linear-gradient(to bottom right, #ad336d, #ef745c);
+}
+.L6 {
+    background-image: linear-gradient(to bottom right, #c471f2, #f76cc6);
+}
